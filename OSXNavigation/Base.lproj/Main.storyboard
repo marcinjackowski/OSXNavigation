@@ -93,7 +93,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSV-7p-2Ks">
-                                <rect key="frame" x="159" y="118" width="163" height="32"/>
+                                <rect key="frame" x="41" y="118" width="163" height="32"/>
                                 <buttonCell key="cell" type="push" title="Push view controller" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8Y7-Ve-8gz">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
