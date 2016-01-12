@@ -13,9 +13,15 @@ Push view controller
 ```swift
 // Init view controller
 let testViewController = TestViewController()
-// Choose method from ViewController to push controller
+// Push controller
 pushViewController(testViewController)
 ```
 
 Pop view controller
 
+```swift
+// Get presentingViewController
+guard let presentingViewController = presentingViewController as? ViewController else { return }
+// Pop controller
+popViewController(presentingViewController, currentViewController: self)
+```
