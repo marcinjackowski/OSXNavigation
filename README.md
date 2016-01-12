@@ -2,6 +2,8 @@
 
 Simple example how to write navigation in OSX application written in Swift. 
 
+![App](https://raw.github.com/marcinjackowski/OSXNavigation/master/Source/Assets/app.gif)
+
 ## Usage
 
 1. In ViewController there's two methods to push and pop viewControllers.
